@@ -53,6 +53,7 @@ while a != 0:
             h=input("Nome do produto: ")
         i=float(input("Preço: "))
         estoque[h]["Preço"]=i
+    print("Controle de estoque" "\n 0 - sair" "\n 1 - adicionar item" "\n 2 - remover item" "\n 3 - alterar quantidade do produto" "\n 4 - imprimir estoque \n 5 - alterar preço do produto")
     a = int(input("Faça sua escolha:"))    
 if a == 0:
       print ('Até mais')
